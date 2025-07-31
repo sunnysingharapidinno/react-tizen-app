@@ -1,6 +1,7 @@
-import { gameDetailsPath, homePath } from "./path"
+import { gameDetailsPath, homePath, profileDetailsPath } from "./path"
 import GameDetails from "modules/game-details/GameDetails"
 import Home from "modules/home/Home"
+import ProfileDetails from "modules/profile-details/ProfileDetails"
 import { RouteObject } from "react-router-dom"
 
 export const routeList: RouteObject[] = [
@@ -11,5 +12,9 @@ export const routeList: RouteObject[] = [
   {
     path: gameDetailsPath,
     element: <GameDetails />,
+  },
+  {
+    path: profileDetailsPath,
+    element: <ProfileDetails />,
   },
 ]

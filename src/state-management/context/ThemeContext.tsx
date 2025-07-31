@@ -1,7 +1,7 @@
 import React, { createContext, useMemo, useState, ReactNode } from "react"
 import { getTheme } from "styles/theme"
 import { ThemeProvider } from "styled-components"
-import { Themes } from "enums/theme"
+import { Themes } from "enums/theme.enum"
 import { GlobalStyle } from "styles/globalStyle"
 
 const darkTheme = { ...getTheme(), selected: Themes.DARK }

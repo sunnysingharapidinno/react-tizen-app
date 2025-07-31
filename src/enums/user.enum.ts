@@ -1,0 +1,10 @@
+export enum PERSONA {
+  PUBLISHER = "COMPANY",
+  STUDIO = "STUDIO",
+  DEVELOPER = "DEVELOPER",
+}
+
+export enum USER_ROLE {
+  PLAYER = "PLAYER",
+  PUBLISHER = "PUBLISHER",
+}

@@ -13,8 +13,8 @@ export const useRemoteControl = (handlers: {
       console.log("Key pressed:", event.keyCode, event.key) // Debug log
 
       // Prevent default behavior for all navigation keys
-      event.preventDefault()
-      event.stopPropagation()
+      // event.preventDefault()
+      // event.stopPropagation()
 
       switch (event.keyCode) {
         case 38: // Arrow Up
